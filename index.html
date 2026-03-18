@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Breket Eshete</h1>
+    <p>Web Developer & Database Administrator</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>I am a web developer skilled in HTML, CSS, JavaScript and MySQL database design.</p>
+</section>
+
+<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>MySQL Database</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3>Library System</h3>
+            <p>Database + Website for managing books</p>
+        </div>
+
+        <div class="card">
+            <h3>E-commerce Website</h3>
+            <p>Online shopping system with payment</p>
+        </div>
+
+        <div class="card">
+            <h3>Student System</h3>
+            <p>Registration system using database</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
